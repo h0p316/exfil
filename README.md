@@ -52,7 +52,7 @@ flowchart TD
     C -->|🔴| F[5 Hard challenges]
     D & E & F --> G[Challenge spawns artifacts]
     G -.->|DOM / console / cookies / storage / canvas / WAV / sw.js| H[Player hunts with DevTools]
-    H --> I[Submit FLAG&#123;...&#125;]
+    H --> I["Submit FLAG{...}"]
     I --> J[SHA-256 check vs shipped hash]
     J -->|match| K[Score engine + confetti + snark]
     J -->|no match| L[Snark engine insults you]
